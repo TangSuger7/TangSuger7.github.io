@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>TangSuger7.github.io/archives/index.html</loc>
+    <loc>TangSuger7.github.io/contact/index.html</loc>
     
     <lastmod>2020-07-01T09:09:44.000Z</lastmod>
     
@@ -10,13 +10,6 @@
   
   <url>
     <loc>TangSuger7.github.io/2019/08/27/blog-open-source/</loc>
-    
-    <lastmod>2020-07-01T09:09:44.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>TangSuger7.github.io/about/index.html</loc>
     
     <lastmod>2020-07-01T09:09:44.000Z</lastmod>
     
@@ -37,7 +30,14 @@
   </url>
   
   <url>
-    <loc>TangSuger7.github.io/friends/index.html</loc>
+    <loc>TangSuger7.github.io/about/index.html</loc>
+    
+    <lastmod>2020-07-01T09:09:44.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>TangSuger7.github.io/archives/index.html</loc>
     
     <lastmod>2020-07-01T09:09:44.000Z</lastmod>
     
@@ -51,7 +51,7 @@
   </url>
   
   <url>
-    <loc>TangSuger7.github.io/contact/index.html</loc>
+    <loc>TangSuger7.github.io/friends/index.html</loc>
     
     <lastmod>2020-07-01T09:09:44.000Z</lastmod>
     

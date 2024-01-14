@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>洪卫的博客</title>
+  <title>TangSのBlog</title>
   
-  <subtitle>洪卫的博客</subtitle>
+  <subtitle>TangSuger</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="TangSuger7.github.io/"/>
@@ -10,7 +10,7 @@
   <id>TangSuger7.github.io/</id>
   
   <author>
-    <name>洪卫</name>
+    <name>蒋一凡</name>
     
   </author>
   

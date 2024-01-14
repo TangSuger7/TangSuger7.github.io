@@ -27,8 +27,8 @@ jobs:
           npm config set registry https://registry.npm.taobao.org
           npm install -g hexo-cli
           npm install
-          git config --global user.name "TangSuger7"
-          git config --global user.email "409781246@qq.com"
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
           sed -i'' "s~git@github.com:~https://${{ secrets.GH_TOKEN }}@github.com/~" _config.yml
           rm -rf .deploy_git
           hexo clean

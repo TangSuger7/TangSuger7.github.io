@@ -126,7 +126,7 @@ deploy:
   repo:
     github:  https://github.com/TangSuger7/TangSuger7.github.io.git
     # coding: https://git.coding.net/hwsun/hwsun.git
-    gitee: https://gitee.com/OAOQAQ/OAOQAQ.git
+    # gitee: https://gitee.com/OAOQAQ/OAOQAQ.git
   branch: master
 #- type: baidu_url_submitter
 

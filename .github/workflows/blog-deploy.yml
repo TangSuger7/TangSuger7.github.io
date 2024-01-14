@@ -15,16 +15,15 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "10.24.1"
+          registry-url: https://registry.npmjs.org/
 
-      - name: Setup yarn & Install node_modules
-        uses: borales/actions-yarn@v3.0.0
-        with:
-          cmd: install
+      - name: 安装依赖
+        run: npm install
 
       - name: Check yarn & node version
         run: |
           echo "Node version is `node -v`"
-          echo "Yarn version is `yarn -v`"
+          echo "Yarn version is `npm -v`"
 
       - name: Build & Deploy
         run: |

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tangsuger7.github.io/"/>
-  <updated>2024-04-08T14:34:31.708Z</updated>
+  <updated>2024-04-08T17:12:32.938Z</updated>
   <id>https://tangsuger7.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>博客开源</title>
-    <link href="https://tangsuger7.github.io/2019/08/27/blog-open-source/"/>
-    <id>https://tangsuger7.github.io/2019/08/27/blog-open-source/</id>
-    <published>2019-08-27T03:41:03.000Z</published>
-    <updated>2024-04-08T14:34:31.708Z</updated>
+    <title>2024_4_9_随记</title>
+    <link href="https://tangsuger7.github.io/2024/04/09/2024-4-9-sui-ji/"/>
+    <id>https://tangsuger7.github.io/2024/04/09/2024-4-9-sui-ji/</id>
+    <published>2024-04-08T16:25:32.000Z</published>
+    <updated>2024-04-08T17:12:32.938Z</updated>
     
     <summary type="html">
     
@@ -29,20 +29,22 @@
       
         
         
-          &lt;h1 id=&quot;效果演示&quot;&gt;&lt;a href=&quot;#效果演示&quot; class=&quot;headerlink&quot; title=&quot;效果演示&quot;&gt;&lt;/a&gt;效果演示&lt;/h1&gt;&lt;p&gt;&lt;img
+          &lt;p&gt;*[第一步]: 也就是将下载好的zip包解压到指定文件夹，这里是&lt;code&gt;C:\Users\TangS\Blog&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;花了半晚上事件搞懂了博客的使用方法及使用过程中踩得一些坑，时间太晚，记录完就睡觉~&lt;/p&gt;
+&lt;h1
         
       
     
     </summary>
     
-      <category term="软件安装与配置" scheme="https://tangsuger7.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/"/>
+      <category term="随记" scheme="https://tangsuger7.github.io/categories/%E9%9A%8F%E8%AE%B0/"/>
     
     
-      <category term="Hexo" scheme="https://tangsuger7.github.io/tags/Hexo/"/>
+      <category term="hexo" scheme="https://tangsuger7.github.io/tags/hexo/"/>
     
       <category term="Github" scheme="https://tangsuger7.github.io/tags/Github/"/>
     
-      <category term="博客" scheme="https://tangsuger7.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+      <category term="Blog" scheme="https://tangsuger7.github.io/tags/Blog/"/>
     
   </entry>
   

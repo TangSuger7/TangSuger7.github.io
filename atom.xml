@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tangsuger7.github.io/"/>
-  <updated>2024-04-08T17:12:32.938Z</updated>
+  <updated>2024-04-15T16:57:40.167Z</updated>
   <id>https://tangsuger7.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2024_4_16_随记</title>
+    <link href="https://tangsuger7.github.io/2024/04/16/2024-4-16-sui-ji/"/>
+    <id>https://tangsuger7.github.io/2024/04/16/2024-4-16-sui-ji/</id>
+    <published>2024-04-15T16:03:35.000Z</published>
+    <updated>2024-04-15T16:57:40.167Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;1-难以言表的代码审查&quot;&gt;&lt;a href=&quot;#1-难以言表的代码审查&quot; class=&quot;headerlink&quot; title=&quot;1. 难以言表的代码审查&quot;&gt;&lt;/a&gt;1. 难以言表的代码审查&lt;/h1&gt;&lt;pre class=&quot;line-numbers
+        
+      
+    
+    </summary>
+    
+      <category term="随记" scheme="https://tangsuger7.github.io/categories/%E9%9A%8F%E8%AE%B0/"/>
+    
+    
+      <category term="嵌入式" scheme="https://tangsuger7.github.io/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>2024_4_9_随记</title>

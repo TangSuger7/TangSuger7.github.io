@@ -6,12 +6,10 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="2024_4_9_随记, HIT CV DeepLearning MachineLearning 蒋一凡 TangSuger Avon 计算机视觉 深度学习">
+    <meta name="keywords" content="2024_4_16_随记, HIT CV DeepLearning MachineLearning 蒋一凡 TangSuger Avon 计算机视觉 深度学习">
     <meta name="baidu-site-verification" content="fmlEuI34ir">
     <meta name="google-site-verification" content="KeoTn_OFy4ndJwXNmm2gMeQfPhd7alqE9vQDwI32KCY">
-    <meta name="description" content="*[第一步]: 也就是将下载好的zip包解压到指定文件夹，这里是C:\Users\TangS\Blog
-花了半晚上事件搞懂了博客的使用方法及使用过程中踩得一些坑，时间太晚，记录完就睡觉~
-为什么要做博客通过写博客，一方面克服自己一直存在的思">
+    <meta name="description" content="1. 难以言表的代码审查printf(&#34;HMS_TARGET_MARK_INFO:%d,HVA_MOT_SUB_LIST_INFO:%d\n&#34;,sizeof(HVA_MOT_SUB_LIST_INFO), sizeof(HVA_MOT_SU">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -19,7 +17,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>2024_4_9_随记 | AvonのBlog</title>
+    <title>2024_4_16_随记 | AvonのBlog</title>
     <link rel="icon" type="image/png" href="/Avon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -548,13 +546,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/7.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        2024_4_9_随记
+                        2024_4_16_随记
                     </div>
                 </div>
             </div>
@@ -666,16 +664,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/hexo/" target="_blank">
-                                <span class="chip bg-color">hexo</span>
-                            </a>
-                        
-                            <a href="/tags/Github/" target="_blank">
-                                <span class="chip bg-color">Github</span>
-                            </a>
-                        
-                            <a href="/tags/Blog/" target="_blank">
-                                <span class="chip bg-color">Blog</span>
+                            <a href="/tags/嵌入式/" target="_blank">
+                                <span class="chip bg-color">嵌入式</span>
                             </a>
                         
                     </div>
@@ -698,7 +688,7 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2024-04-09
+                    2024-04-16
                 </div>
 
                 <div class="post-author info-break-policy">
@@ -712,14 +702,14 @@
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        682
+                        853
                     </div>
                     
 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        2 分
+                        3 分
                     </div>
                     
                 
@@ -736,38 +726,23 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>*[第一步]: 也就是将下载好的zip包解压到指定文件夹，这里是<code>C:\Users\TangS\Blog</code></p>
-<p>花了半晚上事件搞懂了博客的使用方法及使用过程中踩得一些坑，时间太晚，记录完就睡觉~</p>
-<h1 id="为什么要做博客"><a href="#为什么要做博客" class="headerlink" title="为什么要做博客"></a>为什么要做博客</h1><p>通过写博客，一方面克服自己一直存在的思维逻辑混乱的问题，另一方面记录自己的技术进步，没有比这更让人兴奋的了！</p>
-<h1 id="部署流程"><a href="#部署流程" class="headerlink" title="部署流程"></a>部署流程</h1><ol>
-<li>选定一个自己喜欢的hexo模板，我之前在github上找了好久，最终选择的模板是shw2018大佬的<a href="https://github.com/shw2018/hexo-blog-fly" target="_blank" rel="noopener">hexo-blog-fly</a>，把repo下载下来（记得fork(^_^)）</li>
-<li>一开始我是按照hexo官方教程进行操作，但总是有些库组件安装失败，要么npm安装时卡死，要么就报error（好恶心），经过一番波折，正确的环境安装道路推荐如下：<ol>
-<li>安装nvs（多版本nodejs管理工具），经过测试最好去release界面安装msi，如果配置有问题也可以卸载软件重装，比windows命令行安装卸载方便多了（记不住命令啊。。）</li>
-<li>安装nvs后，命令行输入nvs进入版本安装选择界面，应按照shw2018大佬的<a href="https://sunhwee.com/posts/6e8839eb.html#toc-heading-45" target="_blank" rel="noopener">安装流程</a>中的node版本，选择10.16.x（高版本可能出问题）<ul>
-<li>记得，安装nvs后每次在命令行想调用nodejs和npm命令，都需要在nvs选择版本</li>
-<li>记得配置npm镜像，经过实测，我这里比较好用的镜像源是腾讯的（阿里的有些包可能装不上），命令为：<code>npm config set registry http://mirrors.cloud.tencent.com/npm/</code></li>
-</ul>
-</li>
-<li>然后安装hexo，安装命令为<code>npm install -g hexo-cli</code>，安装后记得在<a href="第一步">第一步</a>的路径下安装支持包，命令为<code>npm i</code></li>
-<li>最后需要记住的命令为：<code>hexo clean</code> <code>hexo g</code> <code>hexo s</code> <code>hexo d</code></li>
-</ol>
-</li>
-</ol>
-<h1 id="发布相关"><a href="#发布相关" class="headerlink" title="发布相关"></a>发布相关</h1><p>在本地测试没有问题后，还需要将包上传到github或者gitee，gitee的Gitee Pages 服务需要身份认证，拍图好麻烦<br>注意这里全局username和email随意配置一个就可以，重要的是使用ssh key的方式构建两个公共密匙，再通过conifg文件进行整合，放到<code>C:\Users\TangS(User)\.ssh</code>目录下，config文件形式如下：</p>
-<pre class="line-numbers language-python"><code class="language-python"><span class="token comment" spellcheck="true"># gitee</span>
-    Host gitee<span class="token punctuation">.</span>com
-    HostName gitee<span class="token punctuation">.</span>com
-    PreferredAuthentications publickey
-    IdentityFile C<span class="token punctuation">:</span><span class="token operator">/</span>Users<span class="token operator">/</span>TangS<span class="token operator">/</span><span class="token punctuation">.</span>ssh<span class="token operator">/</span>id_rsa_gitee
-    User git
-<span class="token comment" spellcheck="true"># github</span>
-    Host github<span class="token punctuation">.</span>com
-    HostName github<span class="token punctuation">.</span>com
-    PreferredAuthentications publickey
-    IdentityFile C<span class="token punctuation">:</span><span class="token operator">/</span>Users<span class="token operator">/</span>TangS<span class="token operator">/</span><span class="token punctuation">.</span>ssh<span class="token operator">/</span>id_rsa_github
-    User git
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>睡觉睡觉，明天还有新的工作，要猝死了orz</p>
+                <h1 id="1-难以言表的代码审查"><a href="#1-难以言表的代码审查" class="headerlink" title="1. 难以言表的代码审查"></a>1. 难以言表的代码审查</h1><pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"HMS_TARGET_MARK_INFO:%d,HVA_MOT_SUB_LIST_INFO:%d\n"</span><span class="token punctuation">,</span><span class="token keyword">sizeof</span><span class="token punctuation">(</span>HVA_MOT_SUB_LIST_INFO<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token keyword">sizeof</span><span class="token punctuation">(</span>HVA_MOT_SUB_LIST_INFO<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">// 4400</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"in_add_info->info_size:%d\n"</span><span class="token punctuation">,</span>in_add_info<span class="token operator">-</span><span class="token operator">></span>info_size<span class="token punctuation">)</span><span class="token punctuation">;</span> 
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"p10:%p\n"</span><span class="token punctuation">,</span><span class="token punctuation">(</span><span class="token punctuation">(</span>HVA_ATTR_INFO_LIST <span class="token operator">*</span><span class="token punctuation">)</span>out_obj<span class="token operator">-</span><span class="token operator">></span>obj_add_info<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">.</span>info<span class="token punctuation">)</span><span class="token operator">-</span><span class="token operator">></span>attr_info<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">memcpy</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token keyword">char</span><span class="token operator">*</span><span class="token punctuation">)</span>out_add_info<span class="token operator">-</span><span class="token operator">></span>info<span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token keyword">char</span><span class="token operator">*</span><span class="token punctuation">)</span>in_add_info<span class="token operator">-</span><span class="token operator">></span>info<span class="token punctuation">,</span> in_add_info<span class="token operator">-</span><span class="token operator">></span>info_size<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"p10:%p\n"</span><span class="token punctuation">,</span><span class="token punctuation">(</span><span class="token punctuation">(</span>HVA_ATTR_INFO_LIST <span class="token operator">*</span><span class="token punctuation">)</span>out_obj<span class="token operator">-</span><span class="token operator">></span>obj_add_info<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">.</span>info<span class="token punctuation">)</span><span class="token operator">-</span><span class="token operator">></span>attr_info<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">break</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>上述代码是业务过程中遇到的很难排查的问题代码，<code>out_add_info</code>在申请内存后，直接拷贝 <code>in_add_info</code>的内存地址，这本应该是正常的处理逻辑，但错就错在两者的内存可能不对齐，且两者本身都是void *类型的变量，很难通过sizeof比对的方式排查指针问题</p>
+<blockquote>
+<p>这种方式存在什么问题呢？<br>假设 <code>in_add_info-&gt;info</code>作为输入，前序处理申请及处理的内存块大小为5000字节，那么 <code>in_add_info-&gt;info_size</code>也为5000，但我申请的 <code>out_add_info-&gt;info</code>大小仅仅为4000，这就会出现常见的内存越界，由于内存异常访问而导致段错误，进而程序崩溃</p>
+</blockquote>
+<h2 id="1-1-复盘"><a href="#1-1-复盘" class="headerlink" title="1.1 复盘"></a>1.1 复盘</h2><blockquote>
+<p>为什么这个问题在我这里很难排查?<br>一般而言，使用vs或vscode在常见的编译平台，如win32、t4、l2等能够调试的平台，遇到此类问题可能一瞬间就能在该位置触发异常保护，这类问题可能几分钟就能解决，但我所调试的是公司自研的h11平台（吐槽一句，真的很垃圾），公司自己搞的一套开发工具还简陋的不行，还不大力支持编译环境的统一，导致开发遇到问题最常见的就是printf，从我最上面加的一系列打印也能看出，排查一个问题有多困难。也许会说，gdb呢？gdb确实能用，也能解决一部分问题，但memcpy的问题gdb是很难排查的，他报错只会报到memcpy函数内部，导致我根本不知道段错误发生在我写的代码的第几行。。</p>
+</blockquote>
+<p>后续分析了一下，很多涉及内存层面操作的问题会给你意想不到的惊喜，，，而且一般很难排查到（特别是void *命名的内存）</p>
+<p>之前在开发其他算法组件时也遇到了这个问题，当时的解决方案是用memcpy_s，非x86平台就用同功能自定义函数，但这种做法实际测试并没有太多卵用。。。真就两个内存地址，两个大小输入比对bulabula，这种操作会对相关的修改带来较大的工作量（每次改动都需要知道输入、输出大小是否对应，更多时候还会趋向于形式主义，问题仍出现在这些毫不自知的地方）。此外还会带来memcpy_s滥用问题，仅仅指定两块内存大小，本质上算是一种警告，并不是代码审查时的强保险。</p>
+<p>综上，在网上浏览时发现存在一种<a href="https://blog.csdn.net/wangzhicheng1983/article/details/117366294" target="_blank" rel="noopener">safe_memcpy</a>，这种实现会对程序安全性做进一步限制，从而保证访问的源地址和目标地址内存在拷贝长度内均可访问。</p>
+<p>ps:后续会尝试实现并应用到项目中，期待有效果^=^</p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -812,7 +787,7 @@
                     </span>
                     <a href="https://tangsuger7.github.io" class="b-link-green">AvonのBlog</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
-                    <a href="/2024/04/09/2024-4-9-sui-ji/" class="b-link-green">2024_4_9_随记</a>
+                    <a href="/2024/04/16/2024-4-16-sui-ji/" class="b-link-green">2024_4_16_随记</a>
                 </p>
             </div>
 
@@ -1132,9 +1107,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2024/04/16/2024-4-16-sui-ji/">
                     <div class="card-image">
@@ -1152,9 +1128,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2024-04-16
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2024-04-16
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
@@ -1167,6 +1143,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -1182,7 +1159,7 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="fa fa-dot-circle-o"></i>
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
                 <a href="/2024/04/09/2024-4-9-sui-ji/">
@@ -1216,7 +1193,6 @@
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
